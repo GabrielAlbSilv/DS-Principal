@@ -1,11 +1,13 @@
+
 package main;
 
-import View.Principal;
+import View.principal_gui;
 
 public class Main {
 
+    
     public static void main(String[] args) {
-        new Principal().setVisible(true);
+          new principal_gui().setVisible(true);
     }
     
 }
